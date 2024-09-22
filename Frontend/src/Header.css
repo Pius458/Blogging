@@ -1,0 +1,37 @@
+/* Header.css */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  .headers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  .lists {
+    display: inline;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
