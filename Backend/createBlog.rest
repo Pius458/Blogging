@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blog
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlBpdXMiLCJpZCI6IjY2ZWU5NWU1MDUyYzM5NzRmMjcyN2ZhZiIsImlhdCI6MTcyNjkxMzQzOX0.R7_R5sJnunpAdwbglVZJnU7_y04gTKZ-OSHr4iFo894
+
+{
+
+    "title" : "Fire and Blood",
+    "author" : "Game of Thrones",
+    "url" : "http://locally",
+    "likes" : 100
+}
