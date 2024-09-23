@@ -18,6 +18,7 @@ mongoose.connect(configs.MONGODB_URL)
 
 app.use(express())
 app.use(cors())
+app.use(express.static('dist'))
 app.use(express.json())
 
 app.use('/api/login', loginRouter)
